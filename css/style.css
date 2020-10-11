@@ -189,7 +189,7 @@ footer .blokje{
 /*--media queries--*/
 
 /*--voor schermen kleiner dan 768px--*/
-  @media (max-width: 768px){
+  @media (max-width: 767px){
     #container{
       width:100%;
       margin:0%;
