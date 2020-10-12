@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artists</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <nav>
+          <img id="logo" src="images/logo-xl.png" alt="logo">
+          <ul>
+						<li><a href="index.html" class="active">ARTISTS</a></li>
+						<li><a href="artform.html">ART FORM</a></li>
+						<li><a href="festivals.html">FESTIVALS</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+        </nav>
+        <h1>street art <br> changing the world</h1>
+      </header>
+
+      <main>
+        <form action="contact.php" method="POST">
+
+          <h3>Persoonsgegevens: </h3>
+          <br>
+          <!-- naam-->
+          <label>
+            Naam:
+            <input type="text" name="txt">
+          </label>
+          <br>
+
+          <!-- achternaam-->
+          <label>
+            Achternaam:
+            <input type="text" name="achternaam">
+          </label>
+          <br>
+
+          <!-- geslacht-->
+          <h3>Geslacht:</h3>
+          <label>
+            Man:
+            <input type="radio" name="geslacht" value="man">
+          </label>
+          <br>
+          <label>
+            Vrouw:
+            <input type="radio" name="geslacht" value="vrouw">
+          </label>
+          <br>
+          <label>
+            Overig:
+            <input type="radio" name="geslacht" value="overig">
+          </label>
+          <br>
+
+
+          <!-- nationaliteit-->
+          <label>
+            <h3>Nationaliteit:</h3>
+            <select name="provincie">
+              <option value="ned">Nederlands</option>
+              <option value="nor">Noors</option>
+              <option value="spa">Spaans</option>
+              <option value="dui">Duits</option>
+              <option value="eng">Engels</option>
+            </select>
+          </label>
+            <br>
+            <br>
+
+            <!-- verzenden-->
+            <input type="submit" name="sub" value="Submit">
+
+          </form>
+      </main>
+
+      <footer>
+        <div class="jonge">
+          <img src="images/footer-boy-xl.png" alt="boy">
+        </div>
+        <div class="spray">
+          <img src="images/spray.png" alt="spray">
+        </div>
+        <div id="info">
+          <h4>HOW TO FIND US</h4>
+          <h5>
+            Raw Art <br> 9SA Rivington St <br> London EC2A <br> <br> +44 7708 323731 <br> <br>
+            <div id="email">
+              info@rawart.com
+            </div>
+          </h5>
+        </div>
+        <div class=blokje>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>
