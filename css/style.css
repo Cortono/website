@@ -327,17 +327,6 @@ footer .blokje{
       height:auto;
     }
 
-    iframe{
-      width:90%;
-      height:300px;
-      margin:0 auto;
-      margin-top: 100px;
-    }
-
-    table{
-      width:auto;
-    }
-
     .art{
       padding-bottom: 20px;
       margin: 0%;
@@ -368,6 +357,24 @@ footer .blokje{
 
     .art article>p{
       font-size: 23px;
+    }
+
+    iframe{
+      width:90%;
+      height:300px;
+      margin-bottom: 44px;
+    }
+
+    form{
+      padding: 0%;
+      padding-left: 0%;
+      margin-right: 0%;
+      margin-left: 0%;
+    }
+
+    table{
+      width:auto;
+      margin-bottom: 44px;
     }
 
     footer{
