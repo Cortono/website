@@ -42,7 +42,7 @@ nav{
 
 #logo{
   height:165px;
-  width:14%;
+  width:179px;
   margin-left: 6%;
   margin-top:15px;
 }
@@ -170,7 +170,7 @@ form input[type='submit']{
 
 /*--vervolg main--*/
 .art{
-  height:656px;
+  height:644px;
   width:30%;
   margin:80px 1%;
   background-image: linear-gradient(170deg, rgb(47, 11, 39),rgb(123, 30, 76));
@@ -293,7 +293,7 @@ footer .blokje{
 
     nav #logo{
       margin-left: 5%;
-      width: 33%;
+      width: 159px;
       height: 122px;
       padding-bottom: 29px;
     }
@@ -304,15 +304,15 @@ footer .blokje{
       margin: 0;
       margin-left: 20%;
       padding: 0;
-      width: 40%;
+      width: 31%;
       top: -165px;
-      left: 40%;
+      left: 49%;
     }
 
     li a{
       display: block;
-      padding: 18px 20%;
-      padding-left: 19%;
+      padding: 14px 16%;
+      padding-left: 23%;
       font-size: 17px;
     }
 
@@ -327,14 +327,22 @@ footer .blokje{
       height:auto;
     }
 
+    iframe{
+      width:90%;
+      height:300px;
+      margin:0 auto;
+      margin-top: 100px;
+    }
+
     table{
       width:auto;
     }
 
     .art{
+      padding-bottom: 20px;
       margin: 0%;
       margin-top: 50px;
-      height:740px;
+      height:100%;
       width:100%;
     }
 
@@ -409,12 +417,13 @@ footer .blokje{
 
   header{
     background-position: -29px 0%;
+    width:104%;
     height:310px;
   }
 
   header #logo{
     margin-top:36px;
-    width:13%;
+    width:112px;
     height:100px;
   }
 
