@@ -125,7 +125,6 @@ td{
 
 /*--form--*/
 form{
-  background-color:;
   padding:5%;
   padding-left: 17%;
   margin-right: 20%;
@@ -284,7 +283,7 @@ footer .blokje{
 
     header{
       height: 388px;
-      background-position: -440px 0%;
+      background-position: 59% 0px;
     }
 
     nav{
@@ -335,7 +334,7 @@ footer .blokje{
     .art{
       margin: 0%;
       margin-top: 50px;
-      height:835px;
+      height:740px;
       width:100%;
     }
 
@@ -352,7 +351,7 @@ footer .blokje{
     }
 
     .art img{
-      height:334px;
+      height:233px;
     }
 
     .art article>h2{
@@ -372,19 +371,20 @@ footer .blokje{
     }
 
     footer .spray{
-      width:127%;
-      top:1px;
-      left:-27%;
-      overflow: hidden;
+      width: 140%;
+      top: 1px;
+      left: -40%;
+      overflow-x: hidden;
     }
 
     footer .spray>img{
-      width:137%;
+      width: 147%;
+      height: 379px;
     }
 
     footer #info{
       top: 85px;
-      left: 35%;
+      left: 27%;
     }
 
     footer #info>h4{
